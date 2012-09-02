@@ -1,0 +1,51 @@
+.wrapper table td span.authorized {
+  background:url(../img/tick.png) 0 center no-repeat;
+  color:#593;
+  font-weight:bold;
+  padding-left:20px;
+}
+
+.provider-list {
+  margin:0;
+  padding:0;
+}
+
+.provider {
+	list-style:none;
+}
+.provider a:link,
+.provider a:visited {
+  display:block;
+  overflow:auto;
+  padding:5px 5px 1px;
+  text-decoration:none;
+}
+.provider a:focus,
+.provider a:hover {
+  background:#eef;
+}
+
+.provider .icon {
+	border:0;
+	float:left;
+  vertical-align:middle;
+}
+.provider .icon img {
+  width:48px;
+}
+
+.provider .details {
+  display:block;
+  margin-left:60px;
+}
+.provider .title {
+	display:block;
+  font-size:15px;
+	font-weight:bold;
+  margin:8px 0 -3px;
+}
+.provider .description {
+	display:block;
+	font-weight:normal;
+}
+

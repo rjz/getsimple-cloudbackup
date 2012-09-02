@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/406/trunk/examples/adsensehost/examples
+END
+GetAllAdClients.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/405/trunk/examples/adsensehost/examples/GetAllAdClients.php
+END
+GetAllCustomChannels.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/406/trunk/examples/adsensehost/examples/GetAllCustomChannels.php
+END
+GenerateReport.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/405/trunk/examples/adsensehost/examples/GenerateReport.php
+END
+GetAllUrlChannels.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/405/trunk/examples/adsensehost/examples/GetAllUrlChannels.php
+END
+GenerateReportWithPaging.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/405/trunk/examples/adsensehost/examples/GenerateReportWithPaging.php
+END
