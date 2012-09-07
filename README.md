@@ -24,22 +24,16 @@ While this plugin remains under development, backups via dropbox require a custo
 
 1. Login to [Dropbox](http://dropbox.com)
 2. [Create a new app](https://www.dropbox.com/developers/apps) using the developer dashboard
-3. Copy the app credentials into the corresponding fields in `cloudbackup/providers/dropbox.php`:
+3. Copy the app key and secret into the corresponding fields in `cloudbackup/providers/dropbox.php`
 
-    const consumer_key    = 'XXXXXXXXXXX';
-    const consumer_secret = 'XXXXXXXXXXX';
-
-4. Check out BenTheDesigner's [https://github.com/BenTheDesigner/Dropbox](Dropbox SDK on Github). We'll be using it heavily.
+(Don't forget to check out BenTheDesigner's [https://github.com/BenTheDesigner/Dropbox](Dropbox SDK on Github). We'll be using it heavily.)
 
 ##### Backups via Google Drive
 
 1. Follow [google's instructions](https://developers.google.com/drive/quickstart#enable_the_drive_api) to create an application using the Drive API
-2. Copy the app credentials into the corresponding fields in `cloudbackup/providers/googledrive.php`:
+2. Copy the app id and secret into the corresponding fields in `cloudbackup/providers/googledrive.php`
 
-    const client_id     = 'XXXXXXXXXXXXX';
-    const client_secret = 'XXXXXXXXXXXXX';
-
-### What works
+### What works...
 
 The plugin currently ships with:
 
@@ -49,7 +43,7 @@ The plugin currently ships with:
 
 ...in other words, the bare minimum needed to back up a website.
 
-### What doesn't
+### What doesn't...
 
 Features that are stubbed but nott fully realized yet include:
 
